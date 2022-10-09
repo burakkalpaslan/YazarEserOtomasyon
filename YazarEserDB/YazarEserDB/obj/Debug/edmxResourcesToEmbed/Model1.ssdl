@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YazarlarEserlerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Eserler">
+    <Key>
+      <PropertyRef Name="EserID" />
+    </Key>
+    <Property Name="EserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="YazarID" Type="int" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Icerik" Type="nvarchar" MaxLength="500" />
+    <Property Name="EserTuru" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Yazarlar">
+    <Key>
+      <PropertyRef Name="YazarID" />
+    </Key>
+    <Property Name="YazarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="YazarAdi" Type="nvarchar" MaxLength="60" />
+  </EntityType>
+  <Association Name="FK__Eserler__YazarID__267ABA7A">
+    <End Role="Yazarlar" Type="Self.Yazarlar" Multiplicity="0..1" />
+    <End Role="Eserler" Type="Self.Eserler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Yazarlar">
+        <PropertyRef Name="YazarID" />
+      </Principal>
+      <Dependent Role="Eserler">
+        <PropertyRef Name="YazarID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="YazarlarEserlerModelStoreContainer">
+    <EntitySet Name="Eserler" EntityType="Self.Eserler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Yazarlar" EntityType="Self.Yazarlar" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Eserler__YazarID__267ABA7A" Association="Self.FK__Eserler__YazarID__267ABA7A">
+      <End Role="Yazarlar" EntitySet="Yazarlar" />
+      <End Role="Eserler" EntitySet="Eserler" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

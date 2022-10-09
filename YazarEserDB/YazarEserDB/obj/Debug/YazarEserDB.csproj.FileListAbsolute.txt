@@ -1,0 +1,83 @@
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.exe.config
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.exe
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.pdb
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.AssemblyReference.cache
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.Form1.resources
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.Properties.Resources.resources
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.GenerateResource.cache
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.CoreCompileInputs.cache
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.exe
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.pdb
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.dll
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.xml
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bused\source\repos\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.CopyComplete
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.AssemblyReference.cache
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.Form1.resources
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.Properties.Resources.resources
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.GenerateResource.cache
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.CoreCompileInputs.cache
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.exe
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.pdb
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.exe.config
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.exe
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.pdb
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.dll
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.xml
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.CopyComplete
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.exe.config
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.exe
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.pdb
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.dll
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.xml
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.AssemblyReference.cache
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.Form1.resources
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.Properties.Resources.resources
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.GenerateResource.cache
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.CoreCompileInputs.cache
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.CopyComplete
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.exe
+C:\Users\90536\Desktop\Yazarlar Project\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.pdb
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.exe.config
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.exe
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.pdb
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.dll
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.xml
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.AssemblyReference.cache
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.Form1.resources
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.Properties.Resources.resources
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.GenerateResource.cache
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.CoreCompileInputs.cache
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.CopyComplete
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.exe
+C:\Users\marha\Downloads\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.pdb
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.exe.config
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.exe
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.pdb
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.dll
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.xml
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.AssemblyReference.cache
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.Form1.resources
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.Properties.Resources.resources
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.GenerateResource.cache
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.CoreCompileInputs.cache
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.csproj.CopyComplete
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.exe
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.pdb
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.exe.manifest
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.application
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.exe.manifest
+C:\Users\bused\OneDrive\Masaüstü\YazarEserDB\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.application
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.exe.manifest
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\bin\Debug\YazarEserDB.application
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.exe.manifest
+C:\Users\90536\Desktop\YazarEserDB\YazarEserDB\obj\Debug\YazarEserDB.application

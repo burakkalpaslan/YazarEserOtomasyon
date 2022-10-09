@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="YazarlarEserlerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Eserler">
+          <Key>
+            <PropertyRef Name="EserID" />
+          </Key>
+          <Property Name="EserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="YazarID" Type="int" />
+          <Property Name="Baslik" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Icerik" Type="nvarchar" MaxLength="500" />
+          <Property Name="EserTuru" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Yazarlar">
+          <Key>
+            <PropertyRef Name="YazarID" />
+          </Key>
+          <Property Name="YazarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="YazarAdi" Type="nvarchar" MaxLength="60" />
+        </EntityType>
+        <Association Name="FK__Eserler__YazarID__267ABA7A">
+          <End Role="Yazarlar" Type="Self.Yazarlar" Multiplicity="0..1" />
+          <End Role="Eserler" Type="Self.Eserler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Yazarlar">
+              <PropertyRef Name="YazarID" />
+            </Principal>
+            <Dependent Role="Eserler">
+              <PropertyRef Name="YazarID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="YazarlarEserlerModelStoreContainer">
+          <EntitySet Name="Eserler" EntityType="Self.Eserler" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Yazarlar" EntityType="Self.Yazarlar" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Eserler__YazarID__267ABA7A" Association="Self.FK__Eserler__YazarID__267ABA7A">
+            <End Role="Yazarlar" EntitySet="Yazarlar" />
+            <End Role="Eserler" EntitySet="Eserler" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="YazarlarEserlerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Eserler">
+          <Key>
+            <PropertyRef Name="EserID" />
+          </Key>
+          <Property Name="EserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="YazarID" Type="Int32" />
+          <Property Name="Baslik" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Icerik" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="EserTuru" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Yazarlar" Relationship="Self.FK__Eserler__YazarID__267ABA7A" FromRole="Eserler" ToRole="Yazarlar" />
+        </EntityType>
+        <EntityType Name="Yazarlar">
+          <Key>
+            <PropertyRef Name="YazarID" />
+          </Key>
+          <Property Name="YazarID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="YazarAdi" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Eserlers" Relationship="Self.FK__Eserler__YazarID__267ABA7A" FromRole="Yazarlar" ToRole="Eserler" />
+        </EntityType>
+        <Association Name="FK__Eserler__YazarID__267ABA7A">
+          <End Role="Yazarlar" Type="Self.Yazarlar" Multiplicity="0..1" />
+          <End Role="Eserler" Type="Self.Eserler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Yazarlar">
+              <PropertyRef Name="YazarID" />
+            </Principal>
+            <Dependent Role="Eserler">
+              <PropertyRef Name="YazarID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="YazarlarEserlerEntities7" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Eserlers" EntityType="Self.Eserler" />
+          <EntitySet Name="Yazarlars" EntityType="Self.Yazarlar" />
+          <AssociationSet Name="FK__Eserler__YazarID__267ABA7A" Association="Self.FK__Eserler__YazarID__267ABA7A">
+            <End Role="Yazarlar" EntitySet="Yazarlars" />
+            <End Role="Eserler" EntitySet="Eserlers" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="YazarlarEserlerModelStoreContainer" CdmEntityContainer="YazarlarEserlerEntities7">
+          <EntitySetMapping Name="Eserlers">
+            <EntityTypeMapping TypeName="YazarlarEserlerModel.Eserler">
+              <MappingFragment StoreEntitySet="Eserler">
+                <ScalarProperty Name="EserID" ColumnName="EserID" />
+                <ScalarProperty Name="YazarID" ColumnName="YazarID" />
+                <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+                <ScalarProperty Name="Icerik" ColumnName="Icerik" />
+                <ScalarProperty Name="EserTuru" ColumnName="EserTuru" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Yazarlars">
+            <EntityTypeMapping TypeName="YazarlarEserlerModel.Yazarlar">
+              <MappingFragment StoreEntitySet="Yazarlar">
+                <ScalarProperty Name="YazarID" ColumnName="YazarID" />
+                <ScalarProperty Name="YazarAdi" ColumnName="YazarAdi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
